@@ -1,8 +1,8 @@
 {
   "currentUser": {
     "image": {
-      "png": "./avatars/image-juliusomo.png",
-      "webp": "./avatars/image-juliusomo.webp"
+      "png": "../../assets/avatars/image-juliusomo.png",
+      "webp": "../../assets/avatars/image-juliusomo.webp"
     },
     "username": "juliusomo"
   },
