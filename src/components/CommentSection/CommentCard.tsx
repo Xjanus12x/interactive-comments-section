@@ -57,7 +57,7 @@ export default function CommentCard({
   }
 
   return (
-    <div className="flex gap-4 p-4 bg-white rounded-lg sm:p-8">
+    <div className="flex items-start gap-4 p-4 bg-white rounded-lg sm:p-8">
       <CommentScoreButton
         className="hidden max-w-max sm:flex-col sm:flex max-h-max h-max"
         username={username}
