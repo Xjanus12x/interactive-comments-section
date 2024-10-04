@@ -5,9 +5,10 @@ import {
   useReducer,
   useState,
 } from "react";
-import data from "../assets/data.json";
+
 import User from "../models/User";
 import Comment from "../models/Comment";
+import { data } from "../assets/data";
 
 type SelectedComment = {
   parentCommentIndex: number;
