@@ -1,5 +1,11 @@
 import juliusomoAvatarPNG from "./avatars/image-juliusomo.png";
 import juliusomoAvatarWEBP from "./avatars/image-juliusomo.webp";
+import amyrobsonAvatarPNG from "./avatars/image-amyrobson.png";
+import amyrobsonAvatarWEBP from "./avatars/image-amyrobson.webp";
+import maxblagunAvatarPNG from "./avatars/image-maxblagun.png";
+import maxblagunAvatarWEBP from "./avatars/image-maxblagun.webp";
+import ramsesmironAvatarPNG from "./avatars/image-ramsesmiron.png";
+import ramsesmironAvatarWEBP from "./avatars/image-ramsesmiron.webp";
 
 export const data = {
   currentUser: {
@@ -18,8 +24,8 @@ export const data = {
       score: 12,
       user: {
         image: {
-          png: "../../assets/avatars/image-amyrobson.png",
-          webp: "../../assets/avatars/image-amyrobson.webp",
+          png: amyrobsonAvatarPNG,
+          webp: amyrobsonAvatarWEBP,
         },
         username: "amyrobson",
       },
@@ -33,8 +39,8 @@ export const data = {
       score: 5,
       user: {
         image: {
-          png: "../../public/assets/images/avatars/image-maxblagun.png",
-          webp: "../../public/assets/images/avatars/image-maxblagun.webp",
+          png: maxblagunAvatarPNG,
+          webp: maxblagunAvatarWEBP,
         },
         username: "maxblagun",
       },
@@ -48,8 +54,8 @@ export const data = {
           replyingTo: "maxblagun",
           user: {
             image: {
-              png: "../../public/assets/images/avatars/image-ramsesmiron.png",
-              webp: "../../public/assets/images/avatars/image-ramsesmiron.webp",
+              png: ramsesmironAvatarPNG,
+              webp: ramsesmironAvatarWEBP,
             },
             username: "ramsesmiron",
           },
@@ -63,8 +69,8 @@ export const data = {
           replyingTo: "ramsesmiron",
           user: {
             image: {
-              png: "../../public/assets/images/avatars/image-juliusomo.png",
-              webp: "../../public/assets/images/avatars/image-juliusomo.webp",
+              png: juliusomoAvatarPNG,
+              webp: juliusomoAvatarWEBP,
             },
             username: "juliusomo",
           },
