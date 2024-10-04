@@ -9,7 +9,6 @@ const Modal = () => {
   const {
     selectedComment,
     setSelectedComment,
-    setCurrentHighestIdNumber,
     commentsDispatch,
   } = useComment();
   useEffect(() => {
