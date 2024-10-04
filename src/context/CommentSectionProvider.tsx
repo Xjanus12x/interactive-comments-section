@@ -5,7 +5,7 @@ import {
   useReducer,
   useState,
 } from "react";
-import data from "../../public/assets/data.json";
+import data from "../assets/data.json";
 import User from "../models/User";
 import Comment from "../models/Comment";
 
